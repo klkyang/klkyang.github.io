@@ -15,6 +15,7 @@ footer {
     background-color: #f74c3c;
     padding-top: 150px;
     padding-bottom: 30px;
+    position: relative;
 }
 
 #get-involved {
@@ -80,6 +81,21 @@ footer {
     border-color: #e74c3c;
     width: 160px;
     margin-top: 15px;
+}
+
+#back-to-top {
+    position:absolute;
+    right:20px;
+    bottom:20px;
+}
+
+#back-to-top a {
+    color: #333;
+    text-decoration: none;
+}
+
+#back-to-top a:hover {
+    text-decoration: none;
 }
 
 /* Responsive Styling */
